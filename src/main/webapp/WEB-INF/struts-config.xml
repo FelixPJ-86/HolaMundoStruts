@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+          "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+
+<struts-config>
+
+    <form-beans>
+      <form-bean name="InicioActionForms" type="actionForms.InicioActionForms" /> 
+    </form-beans>
+
+
+    <global-exceptions>
+    </global-exceptions>
+
+
+    <global-forwards>
+        <forward
+            name="welcome"
+            path="/Welcome.do"/>
+                
+    </global-forwards>
+
+
+
+    <action-mappings>
+        <action
+            path="/Welcome"
+            forward="/pages/Welcome.jsp"/>
+               
+               
+         <action path="/inicio" 
+             type="actions.InicioAction"
+              name="InicioActionForms" 
+             input="/pages/Inicio.jsp"
+              scope="request" validate="true">
+        <forward name="exito" path="/pages/Inicio.jsp" />
+        <forward name="fallo" path="/pages/Inicio.jsp" />
+        </action>
+        
+        
+                 <action path="/lista" 
+             type="actions.MostrarListaAction"
+             name="MostrarListaActionForm" 
+             input="/pages/Lista.jsp"
+              scope="request" validate="true">
+        <forward name="exito" path="/pages/Lista.jsp" />
+        <forward name="fallo" path="/pages/Welcome.jsp" />
+        </action>
+
+    </action-mappings>
+
+
+    <message-resources parameter="MessageResources" />
+
+
+
+</struts-config>
+
