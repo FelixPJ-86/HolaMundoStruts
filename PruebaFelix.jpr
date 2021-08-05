@@ -152,22 +152,6 @@
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
-            <url n="id" path="../Software/jdevstudio10135_CEE/jdev/system/oracle.jdeveloper.10.1.3.43.6/logic_1.3_Tag_Libraries.library"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <url n="id" path="../Software/jdevstudio10135_CEE/jdev/system/oracle.jdeveloper.10.1.3.43.6/bean_1.3_Tag_Libraries.library"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <url n="id" path="../Software/jdevstudio10135_CEE/jdev/system/oracle.jdeveloper.10.1.3.43.6/nested_1.3_Tag_Libraries.library"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <url n="id" path="../Software/jdevstudio10135_CEE/jdev/system/oracle.jdeveloper.10.1.3.43.6/html_1.3_Tag_Libraries.library"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
             <value n="id" v="JSP Runtime"/>
             <value n="isJDK" v="false"/>
          </hash>
@@ -176,19 +160,19 @@
          <list n="libraryDefinitions">
             <hash>
                <list n="classPath">
-                  <url path="target/HolaMundoStruts/WEB-INF/lib/antlr-2.7.2.jar" jar-entry=""/>
-                  <url path="target/HolaMundoStruts/WEB-INF/lib/commons-beanutils-1.8.0.jar" jar-entry=""/>
-                  <url path="target/HolaMundoStruts/WEB-INF/lib/commons-chain-1.2.jar" jar-entry=""/>
-                  <url path="target/HolaMundoStruts/WEB-INF/lib/commons-digester-1.8.jar" jar-entry=""/>
-                  <url path="target/HolaMundoStruts/WEB-INF/lib/commons-logging-1.0.4.jar" jar-entry=""/>
-                  <url path="target/HolaMundoStruts/WEB-INF/lib/commons-validator-1.3.1.jar" jar-entry=""/>
-                  <url path="target/HolaMundoStruts/WEB-INF/lib/jstl-1.0.6.jar" jar-entry=""/>
-                  <url path="target/HolaMundoStruts/WEB-INF/lib/oro-2.0.8.jar" jar-entry=""/>
-                  <url path="target/HolaMundoStruts/WEB-INF/lib/standard-1.0.6.jar" jar-entry=""/>
-                  <url path="target/HolaMundoStruts/WEB-INF/lib/struts-core-1.3.10.jar" jar-entry=""/>
-                  <url path="target/HolaMundoStruts/WEB-INF/lib/struts-extras-1.3.10.jar" jar-entry=""/>
-                  <url path="target/HolaMundoStruts/WEB-INF/lib/struts-taglib-1.3.10.jar" jar-entry=""/>
-                  <url path="target/HolaMundoStruts/WEB-INF/lib/struts-tiles-1.3.10.jar" jar-entry=""/>
+                  <url path="src/main/webapp/WEB-INF/lib/antlr-2.7.2.jar" jar-entry=""/>
+                  <url path="src/main/webapp/WEB-INF/lib/commons-beanutils-1.8.0.jar" jar-entry=""/>
+                  <url path="src/main/webapp/WEB-INF/lib/commons-chain-1.2.jar" jar-entry=""/>
+                  <url path="src/main/webapp/WEB-INF/lib/commons-digester-1.8.jar" jar-entry=""/>
+                  <url path="src/main/webapp/WEB-INF/lib/commons-logging-1.0.4.jar" jar-entry=""/>
+                  <url path="src/main/webapp/WEB-INF/lib/commons-validator-1.3.1.jar" jar-entry=""/>
+                  <url path="src/main/webapp/WEB-INF/lib/jstl-1.0.6.jar" jar-entry=""/>
+                  <url path="src/main/webapp/WEB-INF/lib/oro-2.0.8.jar" jar-entry=""/>
+                  <url path="src/main/webapp/WEB-INF/lib/standard-1.0.6.jar" jar-entry=""/>
+                  <url path="src/main/webapp/WEB-INF/lib/struts-core-1.3.10.jar" jar-entry=""/>
+                  <url path="src/main/webapp/WEB-INF/lib/struts-extras-1.3.10.jar" jar-entry=""/>
+                  <url path="src/main/webapp/WEB-INF/lib/struts-taglib-1.3.10.jar" jar-entry=""/>
+                  <url path="src/main/webapp/WEB-INF/lib/struts-tiles-1.3.10.jar" jar-entry=""/>
                </list>
                <value n="description" v="LibreriasMaven"/>
                <value n="id" v="LibreriasMaven"/>
@@ -210,22 +194,6 @@
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
-            <url n="id" path="../Software/jdevstudio10135_CEE/jdev/system/oracle.jdeveloper.10.1.3.43.6/logic_1.3_Tag_Libraries.library"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <url n="id" path="../Software/jdevstudio10135_CEE/jdev/system/oracle.jdeveloper.10.1.3.43.6/bean_1.3_Tag_Libraries.library"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <url n="id" path="../Software/jdevstudio10135_CEE/jdev/system/oracle.jdeveloper.10.1.3.43.6/nested_1.3_Tag_Libraries.library"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <url n="id" path="../Software/jdevstudio10135_CEE/jdev/system/oracle.jdeveloper.10.1.3.43.6/html_1.3_Tag_Libraries.library"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
             <value n="id" v="JSP Runtime"/>
             <value n="isJDK" v="false"/>
          </hash>
@@ -236,6 +204,106 @@
    </hash>
    <hash n="oracle.jdevimpl.webapp.jsp.libraries.model.ProjectTagLibraries">
       <hash n="libraries">
+         <hash n="WEB-INF\lib\standard-1.0.6.jar!\META-INF\c.tld">
+            <value n="jspVersion" v="1.2"/>
+            <value n="name" v="JSTL Core"/>
+            <value n="prefix" v="c"/>
+            <value n="runInEditor" v="false"/>
+            <value n="showInPalette" v="true"/>
+            <value n="tldURL" v="WEB-INF/lib/standard-1.0.6.jar!/META-INF/c.tld"/>
+            <value n="URI" v="http://java.sun.com/jstl/core"/>
+            <value n="version" v="1.0"/>
+         </hash>
+         <hash n="WEB-INF\lib\standard-1.0.6.jar!\META-INF\c-rt.tld">
+            <value n="jspVersion" v="1.2"/>
+            <value n="name" v="JSTL Core RT"/>
+            <value n="prefix" v="c_rt"/>
+            <value n="runInEditor" v="false"/>
+            <value n="showInPalette" v="false"/>
+            <value n="tldURL" v="WEB-INF/lib/standard-1.0.6.jar!/META-INF/c-rt.tld"/>
+            <value n="URI" v="http://java.sun.com/jstl/core_rt"/>
+            <value n="version" v="1.0"/>
+         </hash>
+         <hash n="WEB-INF\lib\standard-1.0.6.jar!\META-INF\fmt.tld">
+            <value n="jspVersion" v="1.2"/>
+            <value n="name" v="JSTL Format"/>
+            <value n="prefix" v="fmt"/>
+            <value n="runInEditor" v="false"/>
+            <value n="showInPalette" v="true"/>
+            <value n="tldURL" v="WEB-INF/lib/standard-1.0.6.jar!/META-INF/fmt.tld"/>
+            <value n="URI" v="http://java.sun.com/jstl/fmt"/>
+            <value n="version" v="1.0"/>
+         </hash>
+         <hash n="WEB-INF\lib\standard-1.0.6.jar!\META-INF\fmt-rt.tld">
+            <value n="jspVersion" v="1.2"/>
+            <value n="name" v="JSTL Format RT"/>
+            <value n="prefix" v="fmt_rt"/>
+            <value n="runInEditor" v="false"/>
+            <value n="showInPalette" v="false"/>
+            <value n="tldURL" v="WEB-INF/lib/standard-1.0.6.jar!/META-INF/fmt-rt.tld"/>
+            <value n="URI" v="http://java.sun.com/jstl/fmt_rt"/>
+            <value n="version" v="1.0"/>
+         </hash>
+         <hash n="WEB-INF\lib\standard-1.0.6.jar!\META-INF\permittedTaglibs.tld">
+            <value n="jspVersion" v="1.2"/>
+            <value n="name" v="JSTL Permitted Taglibs"/>
+            <value n="prefix" v="permittedTaglibs"/>
+            <value n="runInEditor" v="false"/>
+            <value n="showInPalette" v="false"/>
+            <value n="tldURL" v="WEB-INF/lib/standard-1.0.6.jar!/META-INF/permittedTaglibs.tld"/>
+            <value n="URI" v="http://jakarta.apache.org/taglibs/standard/permittedTaglibs"/>
+            <value n="version" v="1.0"/>
+         </hash>
+         <hash n="WEB-INF\lib\standard-1.0.6.jar!\META-INF\scriptfree.tld">
+            <value n="jspVersion" v="1.2"/>
+            <value n="name" v="JSTL Script Free"/>
+            <value n="prefix" v="scriptfree"/>
+            <value n="runInEditor" v="false"/>
+            <value n="showInPalette" v="false"/>
+            <value n="tldURL" v="WEB-INF/lib/standard-1.0.6.jar!/META-INF/scriptfree.tld"/>
+            <value n="URI" v="http://jakarta.apache.org/taglibs/standard/scriptfree"/>
+            <value n="version" v="1.0"/>
+         </hash>
+         <hash n="WEB-INF\lib\standard-1.0.6.jar!\META-INF\sql.tld">
+            <value n="jspVersion" v="1.2"/>
+            <value n="name" v="JSTL SQL"/>
+            <value n="prefix" v="sql"/>
+            <value n="runInEditor" v="false"/>
+            <value n="showInPalette" v="true"/>
+            <value n="tldURL" v="WEB-INF/lib/standard-1.0.6.jar!/META-INF/sql.tld"/>
+            <value n="URI" v="http://java.sun.com/jstl/sql"/>
+            <value n="version" v="1.0"/>
+         </hash>
+         <hash n="WEB-INF\lib\standard-1.0.6.jar!\META-INF\sql-rt.tld">
+            <value n="jspVersion" v="1.2"/>
+            <value n="name" v="JSTL SQL RT"/>
+            <value n="prefix" v="sql_rt"/>
+            <value n="runInEditor" v="false"/>
+            <value n="showInPalette" v="false"/>
+            <value n="tldURL" v="WEB-INF/lib/standard-1.0.6.jar!/META-INF/sql-rt.tld"/>
+            <value n="URI" v="http://java.sun.com/jstl/sql_rt"/>
+            <value n="version" v="1.0"/>
+         </hash>
+         <hash n="WEB-INF\lib\standard-1.0.6.jar!\META-INF\x.tld">
+            <value n="jspVersion" v="1.2"/>
+            <value n="name" v="JSTL XML"/>
+            <value n="prefix" v="x"/>
+            <value n="runInEditor" v="false"/>
+            <value n="showInPalette" v="true"/>
+            <value n="tldURL" v="WEB-INF/lib/standard-1.0.6.jar!/META-INF/x.tld"/>
+            <value n="URI" v="http://java.sun.com/jstl/xml"/>
+            <value n="version" v="1.0"/>
+         </hash>
+         <hash n="WEB-INF\lib\standard-1.0.6.jar!\META-INF\x-rt.tld">
+            <value n="jspVersion" v="1.2"/>
+            <value n="name" v="JSTL XML RT"/>
+            <value n="prefix" v="x_rt"/>
+            <value n="runInEditor" v="false"/>
+            <value n="showInPalette" v="false"/>
+            <value n="tldURL" v="WEB-INF/lib/standard-1.0.6.jar!/META-INF/x-rt.tld"/>
+            <value n="URI" v="http://java.sun.com/jstl/xml_rt"/>
+            <value n="version" v="1.0"/>
+         </hash>
          <hash n="WEB-INF\lib\struts-taglib-1.3.10.jar!\META-INF\tld\struts-bean.tld">
             <hash n="baseLibrary">
                <value n="name" v="bean"/>
@@ -278,6 +346,16 @@
             <value n="name" v="nested"/>
             <value n="tldURL" v="WEB-INF/lib/struts-taglib-1.3.10.jar!/META-INF/tld/struts-nested.tld"/>
             <value n="URI" v="http://struts.apache.org/tags-nested"/>
+            <value n="version" v="1.3"/>
+         </hash>
+         <hash n="WEB-INF\lib\struts-tiles-1.3.10.jar!\META-INF\tld\struts-tiles.tld">
+            <value n="jspVersion" v="1.2"/>
+            <value n="name" v="tiles"/>
+            <value n="prefix" v="tiles"/>
+            <value n="runInEditor" v="false"/>
+            <value n="showInPalette" v="true"/>
+            <value n="tldURL" v="WEB-INF/lib/struts-tiles-1.3.10.jar!/META-INF/tld/struts-tiles.tld"/>
+            <value n="URI" v="http://struts.apache.org/tags-tiles"/>
             <value n="version" v="1.3"/>
          </hash>
       </hash>
