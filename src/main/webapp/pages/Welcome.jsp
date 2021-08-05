@@ -12,8 +12,6 @@
 
 
 <html:form action="inicio">
-  <html:hidden property="action"/>
-  
   <table>
   <tr>
   <td><label>nombre</label>

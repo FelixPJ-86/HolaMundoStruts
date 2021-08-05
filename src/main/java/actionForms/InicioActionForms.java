@@ -7,25 +7,14 @@ import org.apache.struts.action.ActionForm;
 
 public class InicioActionForms extends ActionForm implements Serializable {
 
-	 private String action = null;
-
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 
 	private String nombre;
     
-    private String apellidos;
-    
-    public String getAction() {
-  return action;
-    }
-    public void setAction(String action) {
-        this.action = action;
-    }
-    
-    public String getNombre() {
+        private String apellidos;
+
+
+        public String getNombre() {
 		return nombre;
 	}
 
@@ -40,5 +29,5 @@ public class InicioActionForms extends ActionForm implements Serializable {
 	public void setApellidos(String apellidos) {
 		this.apellidos = apellidos;
 	}
-	
+
 }

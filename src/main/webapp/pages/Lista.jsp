@@ -54,16 +54,16 @@ width: 60%;
                         </thead>
                         <tbody>
                         <logic:notEmpty name="listaPersonasBean">
-                        <logic:iterate id="per" name="listaPersonasBean" indexId="index">
-                          <tr style="background-color: #FFFFFF; color: #336699;" >
-                          <td ><bean:write name="per" property="nombre" />
-                          </td>
-                          <td><bean:write name="per" property="apellido1" />
-                          </td>
-                            <td><bean:write name="per" property="apellido2" />
-                          </td>
-                          </tr>
-                        </logic:iterate>
+                            <logic:iterate id="per" name="listaPersonasBean" indexId="index">
+                              <tr style="background-color: #FFFFFF; color: #336699;" >
+                              <td ><bean:write name="per" property="nombre" />
+                              </td>
+                              <td><bean:write name="per" property="apellido1" />
+                              </td>
+                                <td><bean:write name="per" property="apellido2" />
+                              </td>
+                              </tr>
+                            </logic:iterate>
                         </logic:notEmpty >
                         </tbody>
                     </table>
