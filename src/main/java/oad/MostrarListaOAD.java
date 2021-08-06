@@ -36,9 +36,11 @@ public class MostrarListaOAD {
 //	            String query = ConstructorConsultas.obtenerListaPersonas();
 	        	 String query = "SELECT p.nombre, p.apellido1, p.apellido2 FROM personas p WHERE p.nombre like ?";
 
+
+	            //Obtener conexión:
+                    //Connection con = JCYLGestionTransacciones.getConnection();
 	            
-	                   // preparamos los datos
-	           
+                    // preparamos los datos
 //	            con = super.getConnexion();
 //	            pstmt = con.prepareStatement(query);
 
@@ -68,6 +70,9 @@ public class MostrarListaOAD {
 	        	 listaPersonaOT.add(new PersonaOT("RAUL ","FRANCISCO ","LOPEZ"));
 	            
 	        } finally {
+                    // Cerrar conexión:
+                    //JCYLGestionTransacciones.close(con.getAutoCommit());
+
 //	            super.cerrarResultSet(rs);
 //	            super.cerrarPreparedStatement(pstmt);
 //	            super.cerrarConnection(con);
