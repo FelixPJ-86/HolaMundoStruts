@@ -15,7 +15,7 @@ public class MostrarListaLn {
 	public ArrayList<PersonaOT> obtenerListaPersonas() {
 		
                 // Si necesito transacción:
-                //JCYLGestionTransacciones.open(true);
+                //JCYLGestionTransacciones.open(false);
                 
 		  ArrayList<PersonaOT> listaPersonaOT = new ArrayList();
 			try {
